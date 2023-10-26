@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+*,*:before,*:after{
+
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+    
+    }
+    input,textarea{
+    
+    outline:none
+    
+    }
+    
+    
+    button,input[type="submit"]{
+    
+    outline:none;
+    border:none;
+    
+    }
+    
+    button:hover,input[type="submit"]{
+        
+        cursor:pointer;
+    transform: translateY(-0.25em);
+    
+    }
+    
+    li,a{
+        text-decoration:none;
+        color: #000;
+    }
+    
+    #header{
+        border-top: .2rem solid #240046;
+    }
+
+    .first_header{
+        position: relative;
+        height: 60px;
+        background-color: #f95a38;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .header_main_link i{
+        font-size: 1.6rem;
+        margin-right: .2rem;
+        color: #ffffff !important;
+    }
+    .first_header a{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-right: 1.8rem;
+        color: #ffffff;
+    }
+    .first_header i{
+        font-size: 1.4rem;
+        margin-right: .2rem;
+        color: #0088CC;
+    }
+    
+    .header_nav{
+        background-color: #e6e6e6;
+        height: 130px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        z-index: 2;
+        top: 65px;
+        bottom: 0;
+    }
+    
+    .logo img{
+        width: 38%;
+    }
+    
+    #nav a{
+        margin-right: 1.1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    #hero_section{
+        position: relative;
+        top: 130px;
+        width: 100%;
+        perspective: 600px;
+        height: 50vh;
+        justify-content: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('/IMG/home-banner3.jpg');
+    }
+    
+    
+.bg_color{
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    flex-direction: column;
+    background-color: #ff6f0017; 
+}
+
+
+.bg_color h3{
+      text-transform: uppercase;
+      font-size: 2.2rem;
+      line-height: 1.2rem;
+      font-weight: 800;
+}
+
+.bg_color h1{
+        visibility: inherit;
+        border-width: 0px;
+        letter-spacing: -2px;
+        filter: blur(0px);
+        font-size: 3.3rem;
+        line-height: 6rem;
+        font-weight: 800;
+        text-transform: uppercase;
+ }
+
+ .bg_color h6{
+        line-height: .3rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+}
+
+#hero_bottom{
+    width: 100%;
+    height: 20vh;
+    background-color: #EDEDED;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero_bottom_content{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero_row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero_row p{
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+.color_span{
+    color: #f95a38;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: -.7rem;
+    margin-left: .5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.simple{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    color: #343434;
+    font-weight: 500;width: 84%;
+}
+
+.color_span:after {
+    content: '';
+    position: absolute;
+    right: calc(100% - 74px);
+    bottom: -6px;
+    background: url('IMG/pencil-blue-line.png');
+    width: 74px;
+    height: 15px;
+    -webkit-animation-name: pencilAnimation;
+    animation-name: pencilAnimation;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.hero_button{
+    display: flex;
+    flex-direction: column;
+}
+.hero_button .get_started{
+    padding: 1.1rem 2.3rem;
+    background-color: #f95a38;
+    color: #fff;
+    font-weight: 600;
+}
+
+.learn_more{
+    margin-top: .5rem;
+    margin-left: 5rem;
+    font-weight: 200;
+}
+
+.learn{
+    font-weight: 900;
+}
+
+.info{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 span{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.info span{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-right: .5rem;
+}
+
+span b {
+    display: none;
+}
+
+.info p{
+    padding: 2rem;
+    font-size: 1rem;
+}
